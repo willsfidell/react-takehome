@@ -1,3 +1,5 @@
-# react-takehome
+# Gendo Technical Task
 
-This project was bootstrapped with [`create-r3f-app`](https://github.com/utsuboco/create-r3f-app)
+For task instructions, please read [this document](https://docs.google.com/document/d/1GYT3Nodor4wTunUjFRhQq-8JySyDuYA4D7pcXsvEUZU/edit?usp=sharing).
+
+Thank you, we look forward to seeing your work!

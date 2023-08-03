@@ -1,7 +1,7 @@
 const title = 'InstaGen by Gendo'
 const url = 'https://localhost:3000'
-const description = 'The easiest and fastest way to create a 3D website using React Three Fiber and NextJS'
-const author = 'Author'
+const description = 'Generate images and share with your friends'
+const author = 'Gendo'
 const twitter = '@gendoai'
 
 export default function Head() {
