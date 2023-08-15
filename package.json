@@ -11,15 +11,18 @@
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^9.0.1",
+    "@prisma/client": "5.1.0",
     "@react-three/drei": "^9.77.3",
     "@react-three/fiber": "^8.13.3",
+    "formik": "^2.4.3",
     "glsl-random": "^0.0.5",
     "next": "^13.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.153.0",
     "three-stdlib": "^2.23.10",
-    "tunnel-rat": "^0.1.2"
+    "tunnel-rat": "^0.1.2",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.3.0",
@@ -47,6 +50,6 @@
     "build": "next build",
     "analyze": "ANALYZE=true next build",
     "start": "next start",
-    "prettier": "npx prettier --list-different \"./src/**/*.{ts,tsx,md}\" \"./app/**/*.{ts,tsx,md}\"\""
+    "prettier": "npx prettier --list-different \"./src/**/*.{ts,tsx,md}\" \"./app/**/*.{ts,tsx,md}\""
   }
 }

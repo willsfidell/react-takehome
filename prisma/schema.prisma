@@ -11,7 +11,15 @@ datasource db {
 }
 
 model User {
-  id                  String          @id @default(cuid())
-  name                String?
-  email               String?         @unique
+  id    String  @id @default(cuid())
+  name  String?
+  email String? @unique
+}
+
+model Post {
+  id          String   @id @default(cuid())
+  image      Bytes
+  title       String
+  description String
+  createdAt   DateTime @default(now())
 }
